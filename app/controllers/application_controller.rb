@@ -8,10 +8,10 @@ class ApplicationController < Sinatra::Base
   end
 
 
-#   get '/products/:id' do
-#     product = Product.find(params[:id])
-#     product.to_json
-#   end
+  get '/products/:id' do
+    product = Product.find(params[:id])
+    product.to_json
+  end
 
 #   get 'products/:id/orders' do
 #     orders = Order.all.filter do |order|
