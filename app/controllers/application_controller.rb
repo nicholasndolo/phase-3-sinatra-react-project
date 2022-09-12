@@ -19,15 +19,15 @@ class ApplicationController < Sinatra::Base
 #     end
 #     orders.to_json
 #   end
-#   post '/products' do
-#     product = Product.create(
-#       name: params[:name],
-#       producer: params[:producer],
-#       unit_price: params[:unit_price],
-#       image_url: params[:image_url]
-#     )
-#     product.to_json
-#   end
+  post '/products' do
+    product = Product.create(
+      name: params[:name],
+      producer: params[:producer],
+      unit_price: params[:unit_price],
+      image_url: params[:image_url]
+    )
+    product.to_json
+  end
 
 #   patch '/products/:id' do
 #     product = Product.find(params[:id])
