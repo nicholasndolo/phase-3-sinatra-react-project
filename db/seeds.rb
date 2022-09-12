@@ -13,12 +13,12 @@ Product.create(name: 'gas', producer: 'gas ltd', unit_price: 1000, image_url: 'h
 
 
 # #create sample supplier instances
-# Supplier.create(name: "Nairobi Households Supplies Ltd", location: 'Nairobi')
-# Supplier.create(name: "Coast Supplies  Ltd", location: 'Mombasa')
-# Supplier.create(name: "Smart Goods Ltd", location: "Masaku")
-# Supplier.create(name: "Chacha Electronics", location: "Nanyuki")
-# Supplier.create(name: "Lumie Smart Cloths", location: "Eldoret")
-# Supplier.create(name: "Fresh Produce Supplies", location: "Kinangop")
+Supplier.create(name: "Nairobi Households Supplies Ltd", location: 'Nairobi')
+Supplier.create(name: "Coast Supplies  Ltd", location: 'Mombasa')
+Supplier.create(name: "Smart Goods Ltd", location: "Masaku")
+Supplier.create(name: "Chacha Electronics", location: "Nanyuki")
+Supplier.create(name: "Lumie Smart Cloths", location: "Eldoret")
+Supplier.create(name: "Fresh Produce Supplies", location: "Kinangop")
 
 # #create sample order instances
 # Order.create(quantity: "20 bales", supplier_id: 1, product_id: 1)
